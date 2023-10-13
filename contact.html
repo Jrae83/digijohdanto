@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Karri-Markus Eero's Homepage!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+
+
+
+    <header>
+        <h1>Vinkkaa mulle ankka!</h1>
+    </header>
+
+    <ul class="topnav">
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="oodi.html">Oodi</a></li>
+        <li><a class="active" href="contact.html">Vinkkaa kanasta!</a></li>
+
+    </ul>
+
+
+    <div class="contactcontainer">
+        <div style="text-align:center">
+            <h2>Ja sama suomen kielellä! Tiiätkö mistä ankkaa löytyy?</h2>
+            <p>Tuuppaahan mulle viestiä!</p>
+        </div>
+        <div class="row">
+            <div class="contactcolumn">
+                <img src="iwantyou.jpg" style="width:100%">
+            </div>
+            <div class="contactcolumn">
+                <form action="/action_page.php">
+                    <label for="fname">Etunimi</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Etunimesi...">
+                    <label for="lname">Sukunimi</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Sukunimesi...">
+                    <label for="country">Mikä myymälä?!</label>
+                    <select id="country" name="country">
+                        <option value="jatka">Lidl Jätkäsaari, Länsisatamankatu 35, Helsinki</option>
+                        <option value="portaali">Lidl Sveitsin Portaali, Mäkikuumolantie 3, Hyvinkää</option>
+                        <option value="saksa">Lidl Leipzig, Zschochersche Str. 79, Leipzig, Deutschland</option>
+                    </select>
+                    <label for="subject">Tarkemmat ohjeet</label>
+                    <textarea id="subject" name="subject" placeholder="Ajo-ohjeen myymälässä..."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Created and copyrighted by Karri-Markus Eero, 2023</p>
+    </footer>
+</body>
+
+</html>
